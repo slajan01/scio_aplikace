@@ -3,7 +3,7 @@
   <div class="min-h-screen bg-gradient-to-br from-blue-50 to-green-50 flex items-center justify-center p-4">
     <div class="text-center bg-white/60 backdrop-blur-sm p-8 md:p-12 rounded-2xl shadow-lg max-w-2xl">
       <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-        Vítejte v aplikaci pro sledování pokroku
+        Vítejte v aplikaci SCIO
       </h1>
       <p class="text-lg text-gray-600 mb-8">
         Interaktivní nástroj pro učitele a studenty, který umožňuje sledovat plnění cílů v reálném čase s pomocí umělé inteligence.

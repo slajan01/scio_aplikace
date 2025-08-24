@@ -5,14 +5,12 @@ export default defineNuxtConfig({
     '@nuxtjs/supabase'
   ],
 
-  // Explicitně povolíme WebSocket v serverovém enginu Nitro
   nitro: {
     experimental: {
       websocket: true
     }
   },
 
-  // Nastavíme server, aby byl dostupný zvenčí (pro Codespace)
   devServer: {
     host: '0.0.0.0',
     port: 3000
@@ -24,7 +22,8 @@ export default defineNuxtConfig({
     redirectOptions: {
       login: '/login',
       callback: '/confirm',
-      exclude: ['/'],
+      // TOTO POLE JSME UPRAVILI
+      exclude: ['/', '/join', '/join/*'], // Povolíme přístup na úvodní stránku a všechny stránky začínající na /join
     }
   },
   devtools: { enabled: true }
