@@ -22,9 +22,9 @@ export default defineNuxtConfig({
     redirectOptions: {
       login: '/login',
       callback: '/confirm',
-      // TOTO POLE JSME UPRAVILI
-      exclude: ['/', '/join', '/join/*'], // Povolíme přístup na úvodní stránku a všechny stránky začínající na /join
+      exclude: ['/', '/join', '/join/*'],
     }
   },
+  
   devtools: { enabled: true }
 })
