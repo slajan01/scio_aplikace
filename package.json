@@ -1,0 +1,27 @@
+{
+  "name": "scio-aplikace",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/ui": "^2.16.0",
+    "drizzle-kit": "^0.31.4",
+    "nuxt": "^3.12.2",
+    "vue": "latest"
+  },
+  "dependencies": {
+    "@nuxtjs/supabase": "^1.6.0",
+    "@supabase/supabase-js": "^2.56.0",
+    "drizzle-orm": "^0.44.4",
+    "katex": "^0.16.22",
+    "marked": "^16.2.0",
+    "postgres": "^3.4.7",
+    "vue-qrcode": "^2.2.2"
+  }
+}
